@@ -15,6 +15,10 @@ In addition to the current systems, we measure the implementation of a new proto
 * [PostgreSQL Source Code](https://github.com/Mytherin/postgres)
 * [MonetDB Source Code](http://dev.monetdb.org/hg/MonetDB/file/a7ebdda88223)
 
+# Paper
+Mark Raasveldt and Hannes Mühleisen: _Don't Hold My Data Hostage - A Case For Client Protocol Redesign_, 43rd International Conference on Very Large Data Bases (VLDB2017)
+[PDF](http://www.vldb.org/pvldb/vol10/p1022-muehleisen.pdf)
+
 # VM Image Download
 All the benchmarks are performed on a VM running Ubuntu 16.04. The image of the VM can be downloaded [here](https://s3.amazonaws.com/vldb-protocols/vldb-protocols2.ova). The login credentials to the VM are username: user, password: user. The experiments can be run by starting the VM and running the benchmark script using the command `python benchmark.py`. The results of the experiments will be put in the `/home/user/results` folder in CSV format. The graphs/tables can be generated using the command `R -f graph.R`.
 
