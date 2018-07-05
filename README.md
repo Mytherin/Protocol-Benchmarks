@@ -20,7 +20,7 @@ Mark Raasveldt and Hannes Mühleisen: _Don't Hold My Data Hostage - A Case For C
 [PDF](http://www.vldb.org/pvldb/vol10/p1022-muehleisen.pdf)
 
 # VM Image Download
-All the benchmarks are performed on a VM running Ubuntu 16.04. The image of the VM can be downloaded [here](https://s3.amazonaws.com/vldb-protocols/vldb-protocols2.ova). The login credentials to the VM are username: user, password: user. The experiments can be run by starting the VM and running the benchmark script using the command `python benchmark.py`. The results of the experiments will be put in the `/home/user/results` folder in CSV format. The graphs/tables can be generated using the command `R -f graph.R`.
+All the benchmarks are performed on a VM running Ubuntu 16.04. The image of the VM can be downloaded [here](https://zenodo.org/record/1305845). The login credentials to the VM are username: user, password: user. The experiments can be run by starting the VM and running the benchmark script using the command `python benchmark.py`. The results of the experiments will be put in the `/home/user/results` folder in CSV format. The graphs/tables can be generated using the command `R -f graph.R`.
 
 The different database systems can be started as follows:
 
