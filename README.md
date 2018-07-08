@@ -67,4 +67,4 @@ POSTGRES_COMPRESSION=true /home/user/Sources/postgres/build/bin/postgres -p 5700
 ```
 
 # Additional Notes
-For the MongoDB ODBC driver [this proprietary driver](http://www.simba.com/drivers/mongodb-odbc-jdbc/) is used. This driver requires a valid license file called `SimbaMongoDBODBCDriver.lic` to be in the users' home directory. This license file can be obtained by requesting a free trial of the software, after which they will email you a license file.
+For the MongoDB ODBC driver [this proprietary driver](http://www.simba.com/drivers/mongodb-odbc-jdbc/) is used. This driver requires a valid license file called `SimbaMongoDBODBCDriver.lic` to be in the users' home directory. This license file can be obtained by requesting a free trial of the software, after which they will email you a license file. In case this driver is no longer available, we have [archived it as well](https://zenodo.org/record/1307303).
